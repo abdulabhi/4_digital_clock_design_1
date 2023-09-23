@@ -1,0 +1,38 @@
+
+
+/* design the html page */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #02011f;
+}
+
+.container
+{
+    display: flex;
+    justify-content: center;
+    background-color: #270870;
+    width: 600px;
+    border-radius: 10px;
+    padding: 40px 0 ;
+    border: 0 0 20px #13e0e7;
+}
+
+.container span
+{
+    color: #f0dbdb;
+    font-size: 100px;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
